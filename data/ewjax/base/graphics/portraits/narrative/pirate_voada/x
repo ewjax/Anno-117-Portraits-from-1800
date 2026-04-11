@@ -1,0 +1,50 @@
+
+
+data\base\graphics\portrait\narrative\pirate_voada\*
+
+ 3/21/2026  21:49         <DIR>    anims
+ 3/21/2026  21:49         <DIR>    maps
+ 3/21/2026  21:49         <DIR>    rdm
+10/29/2025   4:08          10,728  pirate_voada_01.bfg
+10/29/2025   4:08          33,497  pirate_voada_01.cfg
+10/29/2025   4:08           2,312  pirate_voada_01.ifo
+10/29/2025   4:08          10,784  pirate_voada__renderscene_01.bfg
+10/29/2025   4:08          33,847  pirate_voada__renderscene_01.cfg
+10/29/2025   4:08           2,313  pirate_voada__renderscene_01.ifo
+
+
+data\base\graphics\portrait\narrative\pirate_voada\anims\*
+
+10/29/2025   4:08          97,294  pirate_voada_idle_01.rdm
+10/29/2025   4:08         155,323  pirate_voada_negative_talkidle_01.rdm
+10/29/2025   4:08         344,951  pirate_voada_negative_talk_01.rdm
+10/29/2025   4:08         175,994  pirate_voada_neutral_talkidle_01.rdm
+10/29/2025   4:08         361,238  pirate_voada_neutral_talk_01.rdm
+10/29/2025   4:08         142,619  pirate_voada_positive_talkidle_01.rdm
+10/29/2025   4:08         344,311  pirate_voada_positive_talk_01.rdm
+
+
+data\base\graphics\portrait\narrative\pirate_voada\maps\*
+
+10/29/2025   4:08      22,369,796  cloth_08_voada_001_diff_0.dds
+10/29/2025   4:08      22,369,796  cloth_08_voada_001_height_0.dds
+10/29/2025   4:08      22,369,796  cloth_08_voada_001_metal_0.dds
+10/29/2025   4:08      22,369,796  cloth_08_voada_001_norm_0.dds
+10/29/2025   4:08      22,369,796  hair_07_voada_001_diff_0.dds
+10/29/2025   4:08      22,369,796  hair_07_voada_001_height_0.dds
+10/29/2025   4:08      22,369,796  hair_07_voada_001_metal_0.dds
+10/29/2025   4:08      22,369,796  hair_07_voada_001_norm_0.dds
+10/29/2025   4:08       5,592,580  head_06_voada_001_diff_0.dds
+10/29/2025   4:08       5,592,580  head_06_voada_001_height_0.dds
+10/29/2025   4:08       5,592,580  head_06_voada_001_metal_0.dds
+10/29/2025   4:08       5,592,580  head_06_voada_001_norm_0.dds
+
+
+data\base\graphics\portrait\narrative\pirate_voada\rdm\*
+
+10/29/2025   4:08       2,853,126  pirate_voada_01.rdm
+10/29/2025   4:08       1,169,304  pirate_voada_01_lod1.rdm
+10/29/2025   4:08         903,350  pirate_voada_01_lod2.rdm
+10/29/2025   4:08         538,500  pirate_voada_01_lod3.rdm
+10/29/2025   4:08         267,648  pirate_voada_01_lod4.rdm
+

@@ -1,0 +1,90 @@
+
+<ModOps>
+    <ModOp Add="//TextExport/Texts">
+
+        <Text>
+            <LineId>2000101200</LineId>
+            <Text>Bentus Jorgensenus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101201</LineId>
+            <Text>Princuss Qingavia</Text>
+        </Text>
+        <Text>
+            <LineId>2000101202</LineId>
+            <Text>Willus Wibblesockus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101203</LineId>
+            <Text>Anarchus Maxxus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101204</LineId>
+            <Text>Georgicus Smithicus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101205</LineId>
+            <Text>Beryl Decimus O'Maracus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101206</LineId>
+            <Text>Arturus Gasparovicus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101207</LineId>
+            <Text>Carlus Leonardus von Malchingus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101208</LineId>
+            <Text>Alonsus Gravicus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101209</LineId>
+            <Text>Admiral Vicenticus Silvacus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101210</LineId>
+            <Text>Lady Margareticus Decimus Meridius Hunticus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101211</LineId>
+            <Text>Capitaneus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101212</LineId>
+            <Text>The Regina</Text>
+        </Text>
+        <Text>
+            <LineId>2000101213</LineId>
+            <Text>Dominus Archibaldus Blacus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101214</LineId>
+            <Text>Isabella Sarmentus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101215</LineId>
+            <Text>Custus Carceris Bleakworthicus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101216</LineId>
+            <Text>Domina Kahinus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101217</LineId>
+            <Text>Senex Natus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101218</LineId>
+            <Text>Praedo Maritimus Anna Harlicus</Text>
+        </Text>
+        <Text>
+            <LineId>2000101219</LineId>
+            <Text>Praedo Maritimus Jeanus La Fortuna</Text>
+        </Text>
+
+
+    </ModOp>
+</ModOps>
+
+
