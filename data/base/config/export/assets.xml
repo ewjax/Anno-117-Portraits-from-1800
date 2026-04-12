@@ -9,567 +9,570 @@
 
     <!-- first GUID for this mod  2000101200 -->
 
-    <!-- Bente -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101200</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>1</IsFemale>
-                <OasisCharacterId>2000101200</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101200</GUID>
-                <Name>Bente Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_01.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data\ewjax\base\graphics\portraits\narrative\ai_01\ai_01.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+    <!-- append these portraits after Lucius portrait -->
+    <ModOp Type = "addNextSibling" GUID = "33070" >			
+        <Asset>		
+            <Template>Portrait</Template>		
+            <Values>			
+                <Portrait>				
+                    <PortraitName>2000101200</PortraitName>				
+                    <PortraitColor>Cyan</PortraitColor>				
+                    <IsFemale>1</IsFemale>				
+                    <OasisCharacterId>2000101200</OasisCharacterId>			
+                </Portrait>			
+                <Standard>				
+                    <GUID>2000101200</GUID>				
+                    <Name>Bente Portrait</Name>				
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_01.png</IconFilename>			
+                </Standard>			
+                <Object>				
+                    <Variations>					
+                        <Item>
+                            <Filename>data\ewjax\base\graphics\portraits\narrative\ai_01\ai_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>		
+        </Asset>
 
-    <!-- Princess Qing -->
-    <Asset>
-        <Template>portraits</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101201</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>1</IsFemale>
-                <OasisCharacterId>2000101201</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101201</GUID>
-                <Name>Princess Qing Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_02.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/ai_02/ai_02.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Princess Qing -->
+        <Asset>
+            <Template>portraits</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101201</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>1</IsFemale>
+                    <OasisCharacterId>2000101201</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101201</GUID>
+                    <Name>Princess Qing Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_02.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/ai_02/ai_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Willie Wibblesock -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101202</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>0</IsFemale>
-                <OasisCharacterId>2000101202</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101202</GUID>
-                <Name>Willie Wibblesock Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_03.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/ai_03/ai_03.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Willie Wibblesock -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101202</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>0</IsFemale>
+                    <OasisCharacterId>2000101202</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101202</GUID>
+                    <Name>Willie Wibblesock Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_03.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/ai_03/ai_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Dr Hugo Mercier (Anarchist) -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101203</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>0</IsFemale>
-                <OasisCharacterId>2000101203</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101203</GUID>
-                <Name>Dr Hugo Mercier Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_11.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/anarchist/anarchist.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Dr Hugo Mercier (Anarchist) -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101203</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>0</IsFemale>
+                    <OasisCharacterId>2000101203</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101203</GUID>
+                    <Name>Dr Hugo Mercier Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_11.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/anarchist/anarchist.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- George Smith -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101204</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>0</IsFemale>
-                <OasisCharacterId>2000101204</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101204</GUID>
-                <Name>George Smith Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_04.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/ai_04/ai_04.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- George Smith -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101204</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>0</IsFemale>
+                    <OasisCharacterId>2000101204</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101204</GUID>
+                    <Name>George Smith Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_04.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/ai_04/ai_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Beryl O'Mara -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101205</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>1</IsFemale>
-                <OasisCharacterId>2000101205</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101205</GUID>
-                <Name>Beryl O'Mara Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_05.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/ai_05/ai_05.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Beryl O'Mara -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101205</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>1</IsFemale>
+                    <OasisCharacterId>2000101205</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101205</GUID>
+                    <Name>Beryl O'Mara Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_05.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/ai_05/ai_05.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Artur Gasparov -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101206</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>0</IsFemale>
-                <OasisCharacterId>2000101206</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101206</GUID>
-                <Name>Artur Gasparov Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_06.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/ai_06/ai_06.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Artur Gasparov -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101206</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>0</IsFemale>
+                    <OasisCharacterId>2000101206</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101206</GUID>
+                    <Name>Artur Gasparov Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_06.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/ai_06/ai_06.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Carl Leonard von Malching -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101207</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>0</IsFemale>
-                <OasisCharacterId>2000101207</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101207</GUID>
-                <Name>Carl Leonard von Malching Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_07.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/ai_07/ai_07.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Carl Leonard von Malching -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101207</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>0</IsFemale>
+                    <OasisCharacterId>2000101207</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101207</GUID>
+                    <Name>Carl Leonard von Malching Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_07.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/ai_07/ai_07.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Alonso Graves -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101208</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>0</IsFemale>
-                <OasisCharacterId>2000101208</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101208</GUID>
-                <Name>Alonso Graves Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_08.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/ai_08/ai_08.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Alonso Graves -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101208</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>0</IsFemale>
+                    <OasisCharacterId>2000101208</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101208</GUID>
+                    <Name>Alonso Graves Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_08.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/ai_08/ai_08.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Admiral Vicente Silva -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101209</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>0</IsFemale>
-                <OasisCharacterId>2000101209</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101209</GUID>
-                <Name>Admiral Vicente Silva Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_09.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/ai_09/ai_09.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Admiral Vicente Silva -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101209</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>0</IsFemale>
+                    <OasisCharacterId>2000101209</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101209</GUID>
+                    <Name>Admiral Vicente Silva Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/ai_09.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/ai_09/ai_09.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Lady Margaret Hunt -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101210</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>1</IsFemale>
-                <OasisCharacterId>2000101210</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101210</GUID>
-                <Name>Lady Margaret Hunt Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/enemy_02.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/enemy_02/enemy_02.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Lady Margaret Hunt -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101210</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>1</IsFemale>
+                    <OasisCharacterId>2000101210</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101210</GUID>
+                    <Name>Lady Margaret Hunt Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/enemy_02.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/enemy_02/enemy_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- The Captain -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101211</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>0</IsFemale>
-                <OasisCharacterId>2000101211</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101211</GUID>
-                <Name>The Captain Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/captain.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/captain/captain.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- The Captain -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101211</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>0</IsFemale>
+                    <OasisCharacterId>2000101211</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101211</GUID>
+                    <Name>The Captain Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/captain.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/captain/captain.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- The Queen -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101212</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>1</IsFemale>
-                <OasisCharacterId>2000101212</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101212</GUID>
-                <Name>The Queen Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_01.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_01/3rd_party_01.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- The Queen -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101212</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>1</IsFemale>
+                    <OasisCharacterId>2000101212</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101212</GUID>
+                    <Name>The Queen Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_01.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_01/3rd_party_01.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Sir Archibald Blake -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101213</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>0</IsFemale>
-                <OasisCharacterId>2000101213</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101213</GUID>
-                <Name>Sir Archibald Blake Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_02.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_02/3rd_party_02.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Sir Archibald Blake -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101213</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>0</IsFemale>
+                    <OasisCharacterId>2000101213</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101213</GUID>
+                    <Name>Sir Archibald Blake Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_02.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_02/3rd_party_02.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Isabele Sarmento -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101214</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>1</IsFemale>
-                <OasisCharacterId>2000101214</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101214</GUID>
-                <Name>Isabele Sarmento Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_05.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_05/3rd_party_05.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Isabele Sarmento -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101214</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>1</IsFemale>
+                    <OasisCharacterId>2000101214</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101214</GUID>
+                    <Name>Isabele Sarmento Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_05.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_05/3rd_party_05.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Eli Bleakworth -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101215</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>0</IsFemale>
-                <OasisCharacterId>2000101215</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101215</GUID>
-                <Name>Eli Bleakworth Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_07.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_07/3rd_party_07.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Eli Bleakworth -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101215</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>0</IsFemale>
+                    <OasisCharacterId>2000101215</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101215</GUID>
+                    <Name>Eli Bleakworth Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_07.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_07/3rd_party_07.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Madame Kahina -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101216</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>1</IsFemale>
-                <OasisCharacterId>2000101216</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101216</GUID>
-                <Name>Madame Kahina Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_08.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_08/3rd_party_08.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Madame Kahina -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101216</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>1</IsFemale>
+                    <OasisCharacterId>2000101216</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101216</GUID>
+                    <Name>Madame Kahina Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_08.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_08/3rd_party_08.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Old Nate -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101217</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>0</IsFemale>
-                <OasisCharacterId>2000101217</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101217</GUID>
-                <Name>Old Nate Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_06_new.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_06/3rd_party_06.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Old Nate -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101217</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>0</IsFemale>
+                    <OasisCharacterId>2000101217</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101217</GUID>
+                    <Name>Old Nate Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_06_new.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_06/3rd_party_06.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Anne Harlow -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101218</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>1</IsFemale>
-                <OasisCharacterId>2000101218</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101218</GUID>
-                <Name>Anne Harlow Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_03.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_03/3rd_party_03.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Anne Harlow -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101218</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>1</IsFemale>
+                    <OasisCharacterId>2000101218</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101218</GUID>
+                    <Name>Anne Harlow Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_03.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_03/3rd_party_03.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- Jean La Fortune -->
-    <Asset>
-        <Template>Portrait</Template>
-        <Values>
-            <Portrait>
-                <PortraitName>2000101219</PortraitName>
-                <PortraitColor>Cyan</PortraitColor>
-                <IsFemale>0</IsFemale>
-                <OasisCharacterId>2000101219</OasisCharacterId>
-            </Portrait>
-            <Standard>
-                <GUID>2000101219</GUID>
-                <Name>Jean La Fortune Portrait</Name>
-                <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_04.png</IconFilename>
-            </Standard>
-            <Object>
-                <Variations>
-                    <Item>
-                        <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_04/3rd_party_04.cfg</Filename>
-                    </Item>
-                </Variations>
-            </Object>
-            <Locked>
-                <VisibleWhenLocked>1</VisibleWhenLocked>
-            </Locked>
-        </Values>
-    </Asset>
+        <!-- Jean La Fortune -->
+        <Asset>
+            <Template>Portrait</Template>
+            <Values>
+                <Portrait>
+                    <PortraitName>2000101219</PortraitName>
+                    <PortraitColor>Cyan</PortraitColor>
+                    <IsFemale>0</IsFemale>
+                    <OasisCharacterId>2000101219</OasisCharacterId>
+                </Portrait>
+                <Standard>
+                    <GUID>2000101219</GUID>
+                    <Name>Jean La Fortune Portrait</Name>
+                    <IconFilename>data/ewjax/ui/4k/base/icon_content/portraits/3rd_party_04.png</IconFilename>
+                </Standard>
+                <Object>
+                    <Variations>
+                        <Item>
+                            <Filename>data/ewjax/base/graphics/portraits/narrative/3rd_party_04/3rd_party_04.cfg</Filename>
+                        </Item>
+                    </Variations>
+                </Object>
+                <Locked>
+                    <VisibleWhenLocked>1</VisibleWhenLocked>
+                </Locked>
+            </Values>
+        </Asset>
 
-    <!-- append new portraits to the ProfileCustomizationScene, after Lucius portrait -->
+    </ModOp>
+
+    <!-- append new portraits to the menu, ProfileCustomizationScene, after Lucius portrait -->
     <ModOp Append="@500769/ProfileCustomizationScene/Portraits/Item[Portrait = '33070']">					
 	    <Item>				
 		    <Portrait>2000101200</Portrait>			
@@ -633,7 +636,6 @@
         </Item>
 
     </ModOp>					
-
 
 </ModOps>
 
