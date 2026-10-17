@@ -9,8 +9,9 @@
 
   <!-- first GUID for this mod  2000101200 -->
 
-  <!-- append these portraits after Caeciliia portrait -->
-  <ModOp Type = "addNextSibling" GUID = "151533" >
+  <!-- append these portraits after CDLC 03 portrait -->
+  <ModOp Append = "@172560" >
+
     <Asset>
       <Template>Portrait</Template>
       <Values>
@@ -572,8 +573,8 @@
 
   </ModOp>
 
-  <!-- append new portraits to the menu, ProfileCustomizationScene, after Caeciliia portrait -->
-  <ModOp Append="@500769/ProfileCustomizationScene/Portraits/Item[Portrait = '151533']">
+  <!-- append new portraits to the menu, ProfileCustomizationScene, after cDLC 3 portrait -->
+  <ModOp Append="@500769/ProfileCustomizationScene/Portraits/Item[Portrait = '172560']">
     <Item>
       <Portrait>2000101200</Portrait>
     </Item>
