@@ -13,8 +13,7 @@
     "Require": [],
     "Optional": [],
     "LoadAfter": [],
-    "Deprecate": [],
-    "Incompatible": []
+    "Deprecate": []
   },
   "Category": {
     "Chinese": "Misc",
@@ -55,23 +54,6 @@
     "Spanish": "#  Portraits from 1800 \n\n This mod allows use of portraits from Anno 1800",
     "Taiwanese": "#  Portraits from 1800 \n\n This mod allows use of portraits from Anno 1800"
   },
-  "KnownIssues": [
-    {
-      "Chinese": null,
-      "English": null,
-      "French": null,
-      "German": null,
-      "Italian": null,
-      "Japanese": null,
-      "Korean": null,
-      "Polish": null,
-      "Russian": null,
-      "Spanish": null,
-      "Taiwanese": null
-    }
-  ],
-  "DLCDependencies": [],
   "CreatorName": "ewjax",
-  "CreatorContact": "",
-  "Image": null
+  "CreatorContact": ""
 }
