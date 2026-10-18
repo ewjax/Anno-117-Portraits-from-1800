@@ -39,7 +39,7 @@
 
         <!-- Princess Qing -->
         <Asset>
-          <Template>portraits</Template>
+          <Template>Portrait</Template>
           <Values>
             <Portrait>
               <PortraitName>2000101201</PortraitName>
